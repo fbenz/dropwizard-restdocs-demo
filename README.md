@@ -14,6 +14,9 @@ and afterwards Spring REST Docs was added with a minimal configuration.
 
 ## Spring REST Docs in a non-Spring project
 
+See the [BookResourceTest](https://github.com/fbenz/dropwizard-restdocs-demo/blob/master/src/test/java/com/github/fbenz/resources/BookResourceTest.java)
+for an example of such a test.
+
 Advantages
 * Beautiful and accurate documentation
 * Can be generated and bundled with the project
@@ -24,6 +27,9 @@ This can be avoided in a Spring project (e.g. when using Web MVC).
 * Spring framework as a test dependency
 
 ## Spring REST Docs for an external REST API
+
+See the [GitHubApiTest](https://github.com/fbenz/dropwizard-restdocs-demo/blob/master/src/test/java/com/github/fbenz/resources/GitHubApiTest.java)
+for an example of such a test.
 
 Advantages
 * Beautiful and accurate documentation
