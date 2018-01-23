@@ -37,3 +37,9 @@ Advantages
 Disadvantages
 * Separate project for the documentation
 * It does not matter that the documentation is done in a test, because the tests are not part of the API project
+
+## API documentation result
+
+The API documentation can be generated with `mvn package`.
+It can also be
+[viewed here](https://htmlpreview.github.io/?https://github.com/fbenz/dropwizard-restdocs-demo/blob/master/generated-documentation.html).
