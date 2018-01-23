@@ -1,0 +1,34 @@
+[[resources-books]]
+== Books
+
+This section that non-Spring projects can be documented with Spring REST Docs.
+Here, the REST API of a Dropwizard project that uses Jersey is documented.
+
+[[resources-books-get-all]]
+=== Get all books
+
+`GET /books`
+
+==== Response fields
+
+include::{snippets}/books/get-all-books/response-fields.adoc[]
+
+==== Example request/response
+
+include::{snippets}/books/get-all-books/curl-request.adoc[]
+include::{snippets}/books/get-all-books/http-response.adoc[]
+
+
+[[resources-books-add]]
+=== Add a book
+
+`POST /books`
+
+==== Request fields
+
+include::{snippets}/books/add-a-book/request-fields.adoc[]
+
+==== Example request/response
+
+include::{snippets}/books/add-a-book/curl-request.adoc[]
+include::{snippets}/books/add-a-book/http-response.adoc[]

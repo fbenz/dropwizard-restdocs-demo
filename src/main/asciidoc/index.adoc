@@ -1,0 +1,11 @@
+= Dropwizard Spring REST Docs Demo
+Florian Benz;
+:doctype: book
+:icons: font
+:source-highlighter: highlightjs
+
+Sample application demonstrating how to use Spring REST Docs with non-Spring projects like Dropwizard.
+This is possible with REST Assured and it can even be used to document external REST APIs.
+
+include::books.adoc[]
+include::github.adoc[]
