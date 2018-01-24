@@ -26,6 +26,9 @@ Disadvantages
 This can be avoided in a Spring project (e.g. when using Web MVC).
 * Spring framework as a test dependency
 
+For projects using Jersey, [restdocsext-jersey](https://github.com/RESTDocsEXT/restdocsext-jersey) can be used as an alternative.
+The Jersey Test Framework allows to write more lightweight tests.
+
 ## Spring REST Docs for an external REST API
 
 See the [GitHubApiTest](https://github.com/fbenz/dropwizard-restdocs-demo/blob/master/src/test/java/com/github/fbenz/resources/GitHubApiTest.java)
